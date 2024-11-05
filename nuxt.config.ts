@@ -15,5 +15,13 @@ export default defineNuxtConfig({
     autoImport: true
   },
   compatibilityDate: '2024-08-26',
-  devtools: { enabled: true }
+  devtools: { enabled: true },
+  fonts: {
+    families: [
+      {
+        name: 'Barlow',
+        provider: 'google',
+      }
+    ]
+  }
 })
