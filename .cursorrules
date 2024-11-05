@@ -1,6 +1,7 @@
 Rules for AI Agent - always follow these instructions when generating code:
 
-- always make sure that the ui is consistent and matches the design system defined in tailwind.config.ts
-- use tailwind css for styling
+- always make sure that the ui matches the design system defined in tailwind.config.ts
+- always use the preinstalled modules when needed @nuxt/image, @nuxt/fonts, @nuxt/scripts, @nuxt/eslint, @nuxt/ui
+
 - split the code into /components and /pages if it makes sense
-- if you need to work wth images, use the placeholder images in the /public folder
+- if you need to work wth images to create a layout, use the placeholder images in /public
