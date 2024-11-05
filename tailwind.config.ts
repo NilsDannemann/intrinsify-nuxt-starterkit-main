@@ -3,7 +3,10 @@ module.exports = {
     theme: {
       extend: {
         colors: {
-          // Define your custom colors here
+          primary: '#FFCD0C',
+        },
+        fontFamily: {
+          sans: ['Barlow', 'sans-serif'],
         },
       },
     },
